@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    @apply w-full mx-auto border-collapse text-center;
+}
+
+table th {
+    @apply font-bold;
+}
+
+table th, td {
+    @apply border border-slate-900;
+}
